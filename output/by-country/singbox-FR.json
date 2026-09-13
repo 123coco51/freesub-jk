@@ -4,32 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
+      "server": "51.255.13.232",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "BqnqToih0PbU"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
       "server": "45.144.28.39",
       "server_port": 2083,
       "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
       "tls": {
         "enabled": true,
         "server_name": "usejh2.neobo-tooth.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "grpc",
         "service_name": "grpc"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
-      "server": "51.83.192.80",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
     },
     {
       "type": "vless",
@@ -46,16 +42,12 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 04 - xiaohe",
-      "server": "35.181.166.40",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-fr-002.fastervpn.world",
-        "insecure": true
-      }
+      "server": "51.83.192.80",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
     },
     {
       "type": "vless",
@@ -100,21 +92,22 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "server": "104.16.72.41",
+      "server": "162.19.10.99",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
+        "server_name": "nasnet-162191099-direct.mbghalibaf.com",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -133,19 +126,6 @@
     {
       "type": "vless",
       "tag": "🇫🇷 法国 (France) 09 - xiaohe",
-      "server": "162.19.10.99",
-      "server_port": 443,
-      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
       "server": "45.144.28.39",
       "server_port": 2053,
       "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
@@ -161,6 +141,25 @@
           "enabled": true,
           "public_key": "dRLd_E_GYCkCcwxLN5EcRQYsREKqisb26_ZSehxUpWY",
           "short_id": "1eb8ea8dae937ae0"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
+      "server": "104.17.121.71",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
         }
       }
     },
@@ -215,25 +214,28 @@
       "password": "github.com/Alvin9999-newpac/fanqiang",
       "tls": {
         "enabled": true,
-        "server_name": "whatsapp.com",
+        "server_name": "t.me",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇷 法国 (France) 14 - xiaohe",
-      "server": "217.179.6.154",
+      "server": "149.202.58.99",
       "server_port": 443,
-      "uuid": "97ecaad4-452c-45ec-b591-d68d3308aad4",
-      "flow": "xtls-rprx-vision",
+      "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
       "tls": {
         "enabled": true,
-        "server_name": "kama4.api3-max.ru",
+        "server_name": "bab-6.site",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vws/"
       }
     },
     {
