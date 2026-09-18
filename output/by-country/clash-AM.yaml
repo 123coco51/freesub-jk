@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
-  server: chat.openai.com
+  server: 45.40.150.30
   port: 8880
   udp: true
   type: vless
@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime29.workers.dev
+      Host: vms.lifetime40.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

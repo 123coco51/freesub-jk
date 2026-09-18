@@ -6,13 +6,14 @@
     {
       "type": "vless",
       "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
-      "server": "chat.openai.com",
+      "server": "45.40.150.30",
       "server_port": 8880,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
         "type": "ws",
+        "path": "/",
         "headers": {
-          "Host": "vms.lifetime29.workers.dev"
+          "Host": "vms.lifetime40.workers.dev"
         }
       }
     },
