@@ -4,36 +4,43 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 155.117.19.17
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 5fa748137b6d822308eea4611f474ad5
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   server: r3mrcg001286ek2.cybervena.com
   port: 50099
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  server: r3mrcg00129437x.cybervena.com
+  port: 50099
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
 - name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  server: hg.zhujue.us
-  port: 11000
+  server: 49.254.204.134
+  port: 1774
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  server: 210.152.85.154
+  port: 19364
   udp: true
   type: vless
-  uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
-  flow: xtls-rprx-vision
+  uuid: 9dbc54c6-aad1-4b30-8c4d-8abe0c0ea826
   tls: true
-  reality-opts:
-    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
-  servername: s0.awsstatic.com
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
   server: hinet1.2yly.com
   port: 24215
   udp: true
@@ -43,22 +50,7 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: qq
-- name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
-  server: 45.142.166.211
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /knowledge?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
   server: 7dba81fc3a0b.oylfmxz.cn
   port: 443
@@ -73,27 +65,43 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: 7dba81fc3a0b.oylfmxz.cn
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  server: hg.zhujue.us
+  port: 11000
+  udp: true
+  type: vless
+  uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
+  servername: s0.awsstatic.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
