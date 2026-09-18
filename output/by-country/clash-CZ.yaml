@@ -5,62 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 64.225.110.247
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /acg/buy/ajax
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: fast.news.gazette.help
+  server: 188.114.97.8
   port: 443
   udp: true
   type: vless
-  uuid: a435200f-b7e8-4994-b0e8-93744c260d42
-  flow: xtls-rprx-vision
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
   tls: true
-  reality-opts:
-    public-key: 0FScwLVFXdFyt3PN0vI5sDxlHupfts4ZI1wIy4_mqH0
-    short-id: 854c259df41e3148
-  servername: cz.h2.cleanersaz.help
-  client-fingerprint: safari
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 62.60.159.173
-  port: 433
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  servername: cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv
+  skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /info/pic?ed=2560
+    path: /vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
