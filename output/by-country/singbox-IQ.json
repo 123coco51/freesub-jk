@@ -6,35 +6,13 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2053,
-      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
+      "server": "103.251.167.112",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "104.21.16.109",
-      "server_port": 443,
-      "uuid": "cc08d2d0-8a7a-4469-81d2-c43704451271",
-      "tls": {
-        "enabled": true,
-        "server_name": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -42,9 +20,50 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/eAPLi7f3K97BkphmbapSZYUkfFFwpZT?ed=2560",
+        "path": "/library/lang",
         "headers": {
-          "Host": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev"
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 02 - xiaohe",
+      "server": "64.227.67.161",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/members/detail/gif?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 03 - xiaohe",
+      "server": "89.110.66.154",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -54,7 +73,8 @@
       "outbounds": [
         "auto",
         "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇮🇶 IQ 02 - xiaohe",
+        "🇮🇶 IQ 03 - xiaohe"
       ]
     },
     {
@@ -62,7 +82,8 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe"
+        "🇮🇶 IQ 02 - xiaohe",
+        "🇮🇶 IQ 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

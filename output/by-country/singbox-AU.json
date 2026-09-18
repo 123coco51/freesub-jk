@@ -14,23 +14,14 @@
     {
       "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "208.103.161.5",
-      "server_port": 443,
-      "uuid": "d042a74a-c305-4eec-a89f-39a348022c92",
-      "tls": {
-        "enabled": true,
-        "server_name": "dry-butterfly-8eb9.tmpgnacio83.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "92.53.188.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+          "Host": "vms.lifetime18.workers.dev"
         }
       }
     },
@@ -58,18 +49,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
-      "server": "vpn-au-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -77,8 +56,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ]
     },
     {
@@ -88,8 +66,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
