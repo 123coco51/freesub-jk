@@ -17,7 +17,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "79.141.174.147",
+      "server": "193.42.39.10",
       "server_port": 33743,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
       "tls": {
@@ -25,7 +25,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -41,6 +41,17 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+      "server": "143.246.195.138",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
       "server": "91.193.17.156",
       "server_port": 9458,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
@@ -49,7 +60,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -63,17 +74,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-      "server": "143.246.195.138",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
       "server": "se-node.rumedia-cdn.com",
@@ -82,7 +82,7 @@
       "tls": {
         "enabled": true,
         "server_name": "cf2.rumedia-cdn.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
