@@ -5,47 +5,53 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.70.21
-  port: 443
+  server: 172.67.161.144
+  port: 8443
   udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-e0dfede8abc0
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: xoz60debusrs.lezuwaeiunjs.workers.dev
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/e0dfede8abc0
+    path: /lMnsZUN4/
     headers:
-      Host: xoz60debusrs.lezuwaeiunjs.workers.dev
+      Host: v2ray1.dozapp.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.21.34.106
-  port: 443
+  server: 172.67.161.144
+  port: 8443
   udp: true
-  type: vless
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: a.cwvps.eu.org
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
+    path: /lMnsZUN4/
     headers:
-      Host: a.cwvps.eu.org
+      Host: v2ray1.dozapp.xyz
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 104.16.10.185
-  port: 443
+  server: 172.67.161.144
+  port: 8443
   udp: true
-  type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: v2ray.simspeedup.com
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
+    path: /lMnsZUN4/
     headers:
-      Host: v2ray.simspeedup.com
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select

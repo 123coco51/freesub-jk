@@ -4,59 +4,62 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-e0dfede8abc0",
+      "server": "172.67.161.144",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "xoz60debusrs.lezuwaeiunjs.workers.dev",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/stream/PANEL_ZEUS/e0dfede8abc0",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "xoz60debusrs.lezuwaeiunjs.workers.dev"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.34.106",
-      "server_port": 443,
-      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+      "server": "172.67.161.144",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "a.cwvps.eu.org",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "a.cwvps.eu.org"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.16.10.185",
-      "server_port": 443,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "server": "172.67.161.144",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "v2ray.simspeedup.com"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },

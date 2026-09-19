@@ -5,41 +5,41 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-      "server": "35.195.122.169",
+      "tag": "🇨🇱 智利 (Chile) 01 - xiaohe",
+      "server": "34.176.98.128",
       "server_port": 443,
-      "uuid": "e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254",
+      "uuid": "4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs",
-          "short_id": "68e97022627fa882"
+          "public_key": "3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw",
+          "short_id": "d7676b6a468a03b3"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇧🇪 比利时 (Belgium) 02 - xiaohe",
-      "server": "34.38.82.200",
+      "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
+      "server": "34.176.137.90",
       "server_port": 443,
-      "uuid": "6d341f6e-7b9d-4ae3-999b-00333de7bdfb",
+      "uuid": "ad5325f8-f0b3-41c4-a561-113529b60e70",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws",
-          "short_id": "31f187650d9530bb"
+          "public_key": "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc",
+          "short_id": "2c2d919f5183d0b7"
         }
       }
     },
@@ -48,16 +48,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-        "🇧🇪 比利时 (Belgium) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 01 - xiaohe",
+        "🇨🇱 智利 (Chile) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-        "🇧🇪 比利时 (Belgium) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 01 - xiaohe",
+        "🇨🇱 智利 (Chile) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
