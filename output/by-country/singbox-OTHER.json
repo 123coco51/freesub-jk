@@ -16,10 +16,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288",
-        "headers": {
-          "Host": "ccs2g.pai50288.uk"
-        }
+        "path": "/pai50288"
       }
     },
     {
