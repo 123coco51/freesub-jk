@@ -4,26 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: fi.snobvpn.online
-  port: 80
+- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  server: 45.134.9.133
+  port: 8443
   udp: true
   type: vless
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  uuid: a6d20e79-d326-42c1-bc20-f4cecc6dc42d
+  tls: true
+  servername: ul-mexico1.09vpn.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /vless/
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
 rules:
 - MATCH,PROXIES

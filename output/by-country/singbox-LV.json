@@ -7,9 +7,9 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9007,
+      "server_port": 9086,
       "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
+      "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "shadowsocks",
@@ -31,25 +31,25 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9086,
+      "server_port": 9036,
       "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "password": "hbtvgUz5uNYyB3Rf"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9068,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9036,
+      "server_port": 9017,
       "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
+      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "shadowsocks",
@@ -71,7 +71,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -79,14 +79,6 @@
           "short_id": "33acba1b"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe",
-      "server": "185.135.86.175",
-      "server_port": 9017,
-      "method": "aes-256-cfb",
-      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "selector",
@@ -100,8 +92,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe"
       ]
     },
     {
@@ -115,8 +106,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 07 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 09 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
