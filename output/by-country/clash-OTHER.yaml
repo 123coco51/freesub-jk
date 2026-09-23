@@ -5,49 +5,42 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.91.76
+  server: 104.18.15.103
   port: 443
   udp: true
   type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: 3-m19.south-africa-online.ccwu.cc
+  servername: server9.9966338.xyz
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
+    path: /imnotarealherox
     headers:
-      Host: 3-m19.south-africa-online.ccwu.cc
+      Host: server9.9966338.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.21.91.76
+  server: 172.67.231.254
   port: 443
   udp: true
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  tls: true
-  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
+    path: /assignment
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 104.21.91.76
+  server: 172.67.231.254
   port: 443
   udp: true
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  tls: true
-  servername: 7-m19.south-africa-online.ccwu.cc
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
-    headers:
-      Host: 7-m19.south-africa-online.ccwu.cc
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
