@@ -23,8 +23,24 @@ proxies:
   type: trojan
   password: M7v%w11Se*
   sni: tttyder.wsone.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: 34.131.228.210
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 04 - xiaohe
+  server: 35.154.58.87
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 05 - xiaohe
   server: 152.67.8.205
   port: 80
   udp: true
@@ -35,22 +51,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 35.154.58.87
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇮🇳 印度 (India) 05 - xiaohe
-  server: 34.131.228.210
-  port: 443
-  udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: hyfuuf6.wsone.icu
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
