@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 104.129.164.30
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime40.workers.dev
-- name: 🇮🇩 印尼 (Indonesia) 02 - xiaohe
   server: 172.235.246.215
   port: 443
   udp: true
@@ -33,13 +22,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  - 🇮🇩 印尼 (Indonesia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
