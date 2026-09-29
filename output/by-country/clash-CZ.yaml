@@ -5,23 +5,32 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 194.87.59.26
-  port: 2085
+  server: 172.67.141.75
+  port: 443
   udp: true
   type: vless
-  uuid: cbbc93ef-6d35-463a-a856-64265c42e66d
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
+  tls: true
+  servername: frosty-pond-7436.shhabbyat914.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /NmrU9ImDG7jA7oFEem
+    headers:
+      Host: frosty-pond-7436.shhabbyat914.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 153.76.185.102
-  port: 3090
+  server: 188.124.59.145
+  port: 18443
   udp: true
   type: vless
-  uuid: cbbc93ef-6d35-463a-a856-64265c42e66d
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: 8df7343e-2427-41fb-aad1-6c563296faf6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI
+    short-id: f087eb07da743e94
+  servername: github.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
