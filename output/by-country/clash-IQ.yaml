@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇰 丹麦 (Denmark) 01 - xiaohe
-  server: 172.67.251.117
+- name: 🇮🇶 IQ 01 - xiaohe
+  server: 172.67.158.34
   port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
   tls: true
-  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /vl/Li1khIHH3DNItJyzraemsPBQvu
     headers:
-      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
+      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇩🇰 丹麦 (Denmark) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇰 丹麦 (Denmark) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
