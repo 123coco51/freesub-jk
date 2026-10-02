@@ -4,22 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "57.129.130.57",
+      "server_port": 52014,
+      "uuid": "52ea9acf-8c78-4589-9e10-824bdbd3f121",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
         }
       }
     },
@@ -28,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

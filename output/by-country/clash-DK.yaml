@@ -5,20 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇰 丹麦 (Denmark) 01 - xiaohe
-  server: 176.109.111.7
-  port: 9881
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16305
   udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
